@@ -33,7 +33,9 @@
                  [ring/ring-core "1.6.2"]
                  [ring/ring-defaults "0.3.1"]
                  [secretary "1.2.3"]
-                 [selmer "1.11.0"]]
+                 [selmer "1.11.0"]
+                 [com.taoensso/timbre "4.10.0"]
+                 [com.fzakaria/slf4j-timbre "0.3.5"]]
 
   :min-lein-version "2.0.0"
 
@@ -54,7 +56,7 @@
    :css-dirs ["resources/public/css"]
    :nrepl-middleware
    [cemerick.piggieback/wrap-cljs-repl cider.nrepl/cider-middleware]}
-  
+
 
   :profiles
   {:uberjar {:omit-source true
@@ -70,8 +72,8 @@
                  :closure-warnings
                  {:externs-validation :off :non-standard-jsdoc :off}
                  :externs ["react/externs/react.js"]}}}}
-             
-             
+
+
              :aot :all
              :uberjar-name "clj-school.jar"
              :source-paths ["env/prod/clj"]
@@ -105,9 +107,9 @@
                       :source-map true
                       :optimizations :none
                       :pretty-print true}}}}
-                  
-                  
-                  
+
+
+
                   :doo {:build "test"}
                   :source-paths ["env/dev/clj"]
                   :resource-paths ["env/dev/resources"]
@@ -124,7 +126,7 @@
                       :main "clj-school.doo-runner"
                       :optimizations :whitespace
                       :pretty-print true}}}}
-                  
+
                   }
    :profiles/dev {}
    :profiles/test {}})

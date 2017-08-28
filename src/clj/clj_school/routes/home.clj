@@ -3,7 +3,11 @@
             [compojure.core :refer [defroutes GET context]]
             [ring.util.http-response :as response]
             [clojure.java.io :as io]
-            [clojure.tools.logging :as log]))
+            [taoensso.timbre :as log]))
+
+
+(log/merge-config! {:level :debug})
+(log/info "Loading....")
 
 (defn home-page []
   (layout/render "home.html"))
@@ -18,6 +22,7 @@
 (def classes (atom {}))
 
 (defn get-courses []
+  (log/info "getting courses")
   (vals @courses))
 
 (defn get-course [course-id]
@@ -33,16 +38,24 @@
 (defn get-classes []
   [beginner-geometry])
 
+;; TODO: Implement routes that work for CRUD for three diffferent classes
+;; Create the classes from three different courses
+;; Store the created classes in an Atom
+;; Take a stab at adding a web front end
+;; Run the front end with lein figwheel
+
 (defroutes home-routes
   (GET "/" []
        (home-page))
-  #_(context "/class" []
-             (GET "/" [] (str [(get-classes)]))
-             (POST "/" [course-id] (str (create-class course-id))))
+  (context "/classes" []
+           (GET "/" [] (str (get-classes))))
+  (context "/class" []
+           (GET "/" [] (str beginner-geometry)))
   (context "/courses" []
            (GET "/" [] (str (get-courses))))
-  (context "/course" []
-           (GET "/" [course-id] (str course-id)))
-  (GET "/docs" []
-       (-> (response/ok (-> "docs/docs.md" io/resource slurp))
-           (response/header "Content-Type" "text/plain; charset=utf-8"))))
+  (context "/course/:id" [id]
+           (GET "/" [id] (str (get-course (str id))))))
+
+(GET "/docs" []
+     (-> (response/ok (-> "docs/docs.md" io/resource slurp))
+         (response/header "Content-Type" "text/plain; charset=utf-8")))
