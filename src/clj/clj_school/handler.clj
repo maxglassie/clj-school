@@ -24,4 +24,6 @@
                      :title "page not found"})))))
 
 
-(defn app [] (middleware/wrap-base #'app-routes))
+(defn app []
+  (let [app* (middleware/wrap-base #'app-routes)]
+    app*))
