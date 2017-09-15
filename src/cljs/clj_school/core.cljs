@@ -8,13 +8,16 @@
             [ajax.core :refer [GET POST]]
             [clj-school.ajax :refer [load-interceptors!]]
             [clj-school.handlers]
-            [clj-school.subscriptions])
+            [clj-school.subscriptions]
+            [clj-school.components.course :as courses])
   (:import goog.History))
 
 (defn nav-link [uri title page collapsed?]
   (let [selected-page (rf/subscribe [:page])]
     [:li.nav-item
-     {:class (when (= page @selected-page) "active")}
+     ;; when the page is the selected page, return active as the
+     {:class (when (= page @selected-page)
+               "active")}
      [:a.nav-link
       {:href uri
        :on-click #(reset! collapsed? true)} title]]))
@@ -39,6 +42,9 @@
 
 (defn home-page []
   [:div.container
+   ;; rf/subscribe takes a piece of the atom which stores the app state
+   ;; and dereferences it, and returns that piece of atom
+   [courses/course @(rf/subscribe [:current-course])]
    (when-let [docs @(rf/subscribe [:docs])]
      [:div.row>div.col-sm-12
       [:div {:dangerouslySetInnerHTML
@@ -51,6 +57,7 @@
 (defn page []
   [:div
    [navbar]
+   ;; when you see a symbol in a vector in reagent, it's rendering a component
    [(pages @(rf/subscribe [:page]))]])
 
 ;; -------------------------
@@ -69,9 +76,9 @@
 (defn hook-browser-navigation! []
   (doto (History.)
     (events/listen
-      HistoryEventType/NAVIGATE
-      (fn [event]
-        (secretary/dispatch! (.-token event))))
+     HistoryEventType/NAVIGATE
+     (fn [event]
+       (secretary/dispatch! (.-token event))))
     (.setEnabled true)))
 
 ;; -------------------------

@@ -1,0 +1,254 @@
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.197 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.795 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 5.765 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.709 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.068 seconds.[0m
+[36m----  Could not Analyze  src/cljs/clj_school/components/course.cljs   line:1  column:1  ----[0m
+
+  [1mNamespace .clj-school.components.course has a segment starting with an invaild JavaScript identifier[0m
+
+  [33m1[0m  [1m(ns .clj-school.components.course[0m
+  [0m [0m  [33m^--- Namespace .clj-school.components.course has a segment starting with an invaild JavaScript identifier[0m
+  [36m2[0m  [36m  (:require [reagent.core :as r][0m
+  [36m3[0m  [36m            [re-frame.core :as rf][0m
+  [36m4[0m  [36m            [ajax.core :refer [GET POST]][0m
+
+[36m----  Analysis Error : Please see src/cljs/clj_school/components/course.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.027 seconds.[0m
+[36m----  Could not Analyze  src/cljs/clj_school/components/course.cljs   line:1  column:1  ----[0m
+
+  [1mNamespace .clj-school.components.course has a segment starting with an invaild JavaScript identifier[0m
+
+  [33m1[0m  [1m(ns .clj-school.components.course[0m
+  [0m [0m  [33m^--- Namespace .clj-school.components.course has a segment starting with an invaild JavaScript identifier[0m
+  [36m2[0m  [36m  (:require [reagent.core :as r][0m
+  [36m3[0m  [36m            [re-frame.core :as rf][0m
+  [36m4[0m  [36m            [ajax.core :refer [GET POST]][0m
+
+[36m----  Analysis Error : Please see src/cljs/clj_school/components/course.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.038 seconds.[0m
+[36m----  Could not Analyze  src/cljs/clj_school/components/course.cljs   line:1  column:1  ----[0m
+
+  [1mNamespace .clj-school.components.course has a segment starting with an invaild JavaScript identifier[0m
+
+  [33m1[0m  [1m(ns .clj-school.components.course[0m
+  [0m [0m  [33m^--- Namespace .clj-school.components.course has a segment starting with an invaild JavaScript identifier[0m
+  [36m2[0m  [36m  (:require [reagent.core :as r][0m
+  [36m3[0m  [36m            [re-frame.core :as rf][0m
+  [36m4[0m  [36m            [ajax.core :refer [GET POST]][0m
+
+[36m----  Analysis Error : Please see src/cljs/clj_school/components/course.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 5.914 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.3 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 4.777 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/clj_school/core.cljs   line:44  column:5  ----[0m
+
+  [1mUse of undeclared Var clj-school.core/courses[0m
+
+  [36m40[0m  [36m     [:img {:src (str js/context "/img/warning_clojure.png")}]]]])[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m(defn home-page [][0m
+  [36m43[0m  [36m  [:div.container[0m
+  [33m44[0m  [1m   [courses][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var clj-school.core/courses[0m
+  [36m45[0m  [36m   (when-let [docs @(rf/subscribe [:docs])][0m
+  [36m46[0m  [36m     [:div.row>div.col-sm-12[0m
+  [36m47[0m  [36m      [:div {:dangerouslySetInnerHTML[0m
+  [36m48[0m  [36m             {:__html (md->html docs)}}]])])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/clj_school/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.005 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/clj_school/core.cljs   line:45  column:5  ----[0m
+
+  [1mUse of undeclared Var clj-school.core/courses[0m
+
+  [36m41[0m  [36m     [:img {:src (str js/context "/img/warning_clojure.png")}]]]])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(defn home-page [][0m
+  [36m44[0m  [36m  [:div.container[0m
+  [33m45[0m  [1m   [courses][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var clj-school.core/courses[0m
+  [36m46[0m  [36m   (when-let [docs @(rf/subscribe [:docs])][0m
+  [36m47[0m  [36m     [:div.row>div.col-sm-12[0m
+  [36m48[0m  [36m      [:div {:dangerouslySetInnerHTML[0m
+  [36m49[0m  [36m             {:__html (md->html docs)}}]])])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/clj_school/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.768 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.505 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.925 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.403 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/clj_school/core.cljs   line:45  column:5  ----[0m
+
+  [1mUse of undeclared Var clj-school.components.course/course[0m
+
+  [36m41[0m  [36m     [:img {:src (str js/context "/img/warning_clojure.png")}]]]])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(defn home-page [][0m
+  [36m44[0m  [36m  [:div.container[0m
+  [33m45[0m  [1m   [courses/course][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var clj-school.components.course/course[0m
+  [36m46[0m  [36m   (when-let [docs @(rf/subscribe [:docs])][0m
+  [36m47[0m  [36m     [:div.row>div.col-sm-12[0m
+  [36m48[0m  [36m      [:div {:dangerouslySetInnerHTML[0m
+  [36m49[0m  [36m             {:__html (md->html docs)}}]])])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/clj_school/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.138 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.99 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.314 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.16 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.929 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.83 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.133 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/db.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.946 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.739 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 4.16 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/handlers.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.413 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.506 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 3.373 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/subscriptions.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/clj_school/handlers.cljs   line:20  column:2  ----[0m
+
+  [1mUse of undeclared Var clj-school.handlers/reg-event-fx[0m
+
+  [36m16[0m  [36m :set-docs[0m
+  [36m17[0m  [36m (fn [db [_ docs]][0m
+  [36m18[0m  [36m   (assoc db :docs docs)))[0m
+  [36m19[0m  [36m[0m
+  [33m20[0m  [1m(reg-event-fx[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var clj-school.handlers/reg-event-fx[0m
+  [36m21[0m  [36m :get-course[0m
+  [36m22[0m  [36m (fn [coeffects event][0m
+  [36m23[0m  [36m   (let [db (:db coeffects)[0m
+  [36m24[0m  [36m         course-id (second event)[0m
+  [36m25[0m  [36m         course (get-course course-id)][0m
+
+[36m----  Compiler Warning : Please see src/cljs/clj_school/handlers.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/clj_school/handlers.cljs   line:25  column:18  ----[0m
+
+  [1mUse of undeclared Var clj-school.handlers/get-course[0m
+
+  [36m21[0m  [36m:get-course[0m
+  [36m22[0m  [36m(fn [coeffects event][0m
+  [36m23[0m  [36m  (let [db (:db coeffects)[0m
+  [36m24[0m  [36m        course-id (second event)[0m
+  [33m25[0m  [1m        course (get-course course-id)][0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var clj-school.handlers/get-course[0m
+  [36m26[0m  [36m    {:db (assoc db :current-course course)})))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/clj_school/handlers.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 5.349 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/handlers.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/clj_school/handlers.cljs   line:24  column:2  ----[0m
+
+  [1mUse of undeclared Var clj-school.handlers/reg-event-fx[0m
+
+  [36m21[0m  [36m(defn get-course [course-id][0m
+  [36m22[0m  [36m  )[0m
+  [36m23[0m  [36m[0m
+  [33m24[0m  [1m(reg-event-fx[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var clj-school.handlers/reg-event-fx[0m
+  [36m25[0m  [36m :get-course[0m
+  [36m26[0m  [36m (fn [coeffects event][0m
+  [36m27[0m  [36m   (let [db (:db coeffects)[0m
+  [36m28[0m  [36m         course-id (second event)[0m
+  [36m29[0m  [36m         course (get-course course-id)][0m
+
+[36m----  Compiler Warning : Please see src/cljs/clj_school/handlers.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 3.254 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/handlers.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/clj_school/handlers.cljs   line:24  column:2  ----[0m
+
+  [1mUse of undeclared Var clj-school.handlers/reg-event-fx[0m
+
+  [36m21[0m  [36m(defn get-course [course-id][0m
+  [36m22[0m  [36m  (ajax/GET "localhost:3000/courses?id=1234"))[0m
+  [36m23[0m  [36m[0m
+  [33m24[0m  [1m(reg-event-fx[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var clj-school.handlers/reg-event-fx[0m
+  [36m25[0m  [36m :get-course[0m
+  [36m26[0m  [36m (fn [coeffects event][0m
+  [36m27[0m  [36m   (let [db (:db coeffects)[0m
+  [36m28[0m  [36m         course-id (second event)[0m
+  [36m29[0m  [36m         course (get-course course-id)][0m
+
+[36m----  Compiler Warning : Please see src/cljs/clj_school/handlers.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.586 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/handlers.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 5.411 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/handlers.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.163 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/handlers.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.614 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clj_school/components/course.js
